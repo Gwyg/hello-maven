@@ -1,7 +1,7 @@
-package com.huang;
+package io.github.gwyg;
 
 public class HelloMaven {
-    static void hello(){
+    public static void hello(){
         System.out.println("Hello Maven");
     }
 }

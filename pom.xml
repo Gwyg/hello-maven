@@ -7,7 +7,8 @@
 
     <groupId>io.github.gwyg</groupId>
     <artifactId>hello-maven</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
+    <packaging>jar</packaging>
     <name>hello-maven</name>
     <description>hello-maven</description>
     <url>https://github.com/Gwyg/hello-maven</url>
@@ -19,84 +20,98 @@
         </license>
     </licenses>
 
+
     <developers>
         <developer>
-            <id>gwyg</id>
             <name>gwyg</name>
             <email>1773511271@qq.com</email>
-            <roles>
-                <role>Project Manager</role>
-                <role>Architect</role>
-            </roles>
+            <!-- organization及相关信息，可选 -->
+<!--            <organization>组织名称</organization>-->
+<!--            <organizationUrl>组织官网</organizationUrl>-->
+            <url>https://github.com/Gwyg/hello-maven</url>
+            <timezone>+8</timezone>
         </developer>
     </developers>
 
-    <scm>
+
+  <!--  <scm>
         <connection>https://github.com/Gwyg/hello-maven.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:Gwyg/hello-maven.git
-        </developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com:Gwyg/hello-maven.git</developerConnection>
         <url>https://github.com/Gwyg/hello-maven</url>
+    </scm>-->
+    <scm>
+        <!-- 项目URL -->
+        <url>https://github.com/Gwyg/hello-maven</url>
+        <!-- 项目URL.git -->
+        <connection>scm:git:https://github.com/Gwyg/hello-maven.git</connection>
+        <!-- 项目URL.git -->
+        <developerConnection>scm:git:https://github.com/Gwyg/hello-maven.git</developerConnection>
     </scm>
 
 
+
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 服务id 也就是setting.xml中的servers.server.id -->
+        <serverId>gwyg</serverId>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
     <build>
         <plugins>
-            <!--   central发布插件    -->
+            <!-- 编译插件，设置源码以及编译的jdk版本 -->
             <plugin>
-                <groupId>org.sonatype.central</groupId>
-                <artifactId>central-publishing-maven-plugin</artifactId>
-                <version>0.4.0</version>
-                <extensions>true</extensions>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <publishingServerId>gwyg</publishingServerId>
-                    <tokenAuth>true</tokenAuth>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-            <!--   source源码插件 -->
+            <!-- Source -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>2.2.1</version>
                 <executions>
                     <execution>
-                        <id>attach-sources</id>
+                        <phase>package</phase>
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
-            <!--   javadoc插件 -->
+            <!-- Javadoc -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.9.1</version>
+                <configuration>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>attach-javadocs</id>
+                        <phase>package</phase>
                         <goals>
                             <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
+            <!-- Javadoc -->
+            <!-- Gpg Signature -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.5</version>
-                <configuration>
-                    <executable>D:\GPG\GnuPG\bin\gpg.exe</executable>
-                    <keyname>gwyg</keyname>
-                </configuration>
                 <executions>
                     <execution>
-                        <id>sign-artifacts</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>sign</goal>
@@ -104,8 +119,26 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <!-- 新方式的配置，将组件部署到OSSRH并将其发布到Central Repository-->
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.4.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <!-- 服务id 也就是setting.xml中的servers.server.id -->
+                    <publishingServerId>gwyg</publishingServerId>
+                    <tokenAuth>true</tokenAuth>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>${serverId}</id>
+            <url>https://central.sonatype.com/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
