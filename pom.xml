@@ -47,7 +47,6 @@
 
     <build>
         <plugins>
-
             <!--   central发布插件    -->
             <plugin>
                 <groupId>org.sonatype.central</groupId>
@@ -55,7 +54,7 @@
                 <version>0.4.0</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <publishingServerId>masiyi</publishingServerId>
+                    <publishingServerId>gwyg</publishingServerId>
                     <tokenAuth>true</tokenAuth>
                 </configuration>
             </plugin>
@@ -92,8 +91,8 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.5</version>
                 <configuration>
-                    <executable>E:\dev\gpg2\GnuPG\bin\gpg.exe</executable>
-                    <keyname>wangfugui-ma</keyname>
+                    <executable>D:\GPG\GnuPG\bin\gpg.exe</executable>
+                    <keyname>gwyg</keyname>
                 </configuration>
                 <executions>
                     <execution>
