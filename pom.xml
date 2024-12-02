@@ -10,7 +10,7 @@
     <version>0.0.1</version>
     <name>hello-maven</name>
     <description>hello-maven</description>
-    <url>https://github.com/gwyg/hello-maven</url>
+    <url>https://github.com/Gwyg/hello-maven</url>
 
     <licenses>
         <license>
@@ -32,10 +32,10 @@
     </developers>
 
     <scm>
-        <connection>https://github.com/gwyg/hello-maven.git</connection>
-        <developerConnection>scm:git:ssh://git@gitee.com:gwyg/hello-maven.git
+        <connection>https://github.com/Gwyg/hello-maven.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:Gwyg/hello-maven.git
         </developerConnection>
-        <url>https://github.com/gwyg/hello-maven</url>
+        <url>https://github.com/Gwyg/hello-maven</url>
     </scm>
 
 
