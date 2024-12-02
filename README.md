@@ -26,7 +26,7 @@ https://central.sonatype.com/
 
 ![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjA4MzQ0YzcyM2VlMzRiNmE4MDA2YWFlNjVjZTQwMTBfUnFPNFlsZkNWdHppaVg0bnFtT2NmaHJYdmxJM1QzaUtfVG9rZW46TGEyRmJVYldNb0R0aGV4TzVVeGNTQjhrbjJlXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
 
-如果你的代码存在 `GitHub` 上，你就需要把命名空间设置为`io.gitee.myusername`。这里的`myusername`是你的github地址，例如我的的是`https://github.com/``gwyg`所以我的命名空间是：`io.github.gwyg`
+如果你的代码存在 `GitHub` 上，你就需要把命名空间设置为`io.github.myusername`。这里的`myusername`是你的github地址，例如我的的是`https://github.com/``gwyg`所以我的命名空间是：`io.github.gwyg`
 
 > 其他的仓库可以按照下面的要求来创建： **GitHub io.github.myusername** **GitLab io.gitlab.myusername** **Gitee io.gitee.myusername** **Bitbucket io.bitbucket.myusername**
 
