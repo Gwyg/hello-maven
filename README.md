@@ -105,7 +105,8 @@ https://gnupg.org/download/index.html
 
 然后在弹出的窗口设置一个密码，用来保护密钥对。
 
-![image](https://github.com/user-attachments/assets/f8520aa1-7f45-42a8-a9db-dab7ee2640eb)
+![image](https://github.com/user-attachments/assets/441d1413-cdba-4b07-ae68-f2a0a4896748)
+
 
 
 ### 发布秘钥
