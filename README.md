@@ -113,7 +113,8 @@ https://gnupg.org/download/index.html
 
 上面 067FBBE0CB587465FD81AF9C580E420B49E48996 就是密钥id
 
-![image](https://github.com/user-attachments/assets/642d1835-da3a-4dbd-a46b-0383055bfbc5)
+![image](https://github.com/user-attachments/assets/2bd11572-a5c4-42fa-81b3-d1aa4f974922)
+
 
 
 ```Bash
@@ -136,7 +137,10 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 出现下面内容则说明发布成功
 
-![image](https://github.com/user-attachments/assets/be4268b4-dd4f-4bbf-a781-b32528e0f274)
+                                                                                                            
+                                                                                         ![image](https://github.com/user-attachments/assets/5549d619-48bc-4851-977f-6b0073bc97fa)
+
+
 
 
 ## 发布jar包
@@ -300,12 +304,14 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 这个时候会让你输入你在开头设置的密码，输入成功开始打包上传。
 
-![image](https://github.com/user-attachments/assets/05282bef-aa6b-466f-bdaa-f63c8909668e)
+![image](https://github.com/user-attachments/assets/c5a2ad61-d4b3-46c3-b2ad-6e672e48fd7b)
+
 
 
 打包完成
 
-![image](https://github.com/user-attachments/assets/b3202ac5-c110-4543-bd36-a3dd5f2b2ed4)
+![image](https://github.com/user-attachments/assets/f67e6375-e347-4401-bb28-250d8c3a16ff)
+
 
 ### 发布jar包
 
@@ -315,10 +321,12 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 发布之后需要等待通过。
 
-![image](https://github.com/user-attachments/assets/bee5bd42-ec8b-4bff-a27e-230e0a760866)
+![image](https://github.com/user-attachments/assets/53bc3a3b-df79-4a94-8cbd-a5fcd481005f)
 
 
-![image](https://github.com/user-attachments/assets/cf170cdf-2029-4fc7-8c67-979708f904b1)
+
+![image](https://github.com/user-attachments/assets/88bbc55b-a59c-4cd6-a4b7-72534716d06a)
+
 
 
 几分钟之后就能通过
@@ -327,7 +335,8 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 搜索到就是成功了
 
-![image](https://github.com/user-attachments/assets/3f261464-4220-4899-a6f8-454fa955e79e)
+![image](https://github.com/user-attachments/assets/99865a56-60f9-407e-8c8e-d4861a50610a)
+
 
 
 ## 测试jar包
@@ -344,9 +353,11 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 导入我们上传的依赖
 
-![image](https://github.com/user-attachments/assets/a9b8fb41-8074-4f5b-ab47-ba163369785e)
+![image](https://github.com/user-attachments/assets/ce81871f-acb9-444b-8609-c5e0c3526896)
+
 
 
 成功运行，到此就是完整的上传流程了
 
-![image](https://github.com/user-attachments/assets/862f6945-ba36-4cac-b363-07fefca4754f)
+![image](https://github.com/user-attachments/assets/0937f597-9c18-4786-9f53-d9113de05788)
+
