@@ -8,23 +8,29 @@ https://central.sonatype.com/
 
 右上角的“登录”链接，支持通过 Google 或 GitHub 进行社交登录。也可以选择注册自己的用户名和密码。我这里选择github进行登录。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YWQ3OGJmZjhhYjcwNTk5Njg5MDg4MGMwNjkwYmViM2ZfRzllNjB1a2hmS2I4MW45TXhTVmUweXJjQWY5YzdyUk1fVG9rZW46TGIyT2JBbU1Fb253dlV4ek5semNDbVJ4bmJkXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/f0b708b1-c111-4114-b4ac-3ef31cbcee16)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YWYyNzQ1ZWU5ZjcyMmVhOGE5YWFkNzFjMTUzYTNhZjlfT09yd2llcHo3UGYzdFF4em5uZFJTSWlVT3Nydll0aU5fVG9rZW46THJLRGJTUXFub0VtQjV4TExNUWMwREFpbjhmXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+
+![image](https://github.com/user-attachments/assets/b74b2fe1-6580-47dc-ad50-f017f13668b9)
+
 
 登录完之后是这样的：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NTE2NmIwOGRiNmI4ZWYxMDBjYWU0YTA1NjVlNmFiNGJfRG1mZGJuR1luTGJiTHVsRlJsSW1RRmxMbXhROHJqVDVfVG9rZW46TERiRWJSMkhOb1Brakd4aXlmcmNNd3ZkblJmXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/3ae11958-c245-4538-bd56-55eaa12eada3)
+
 
 ### 新建命名空间
 
 如果你使用 GitHub 登录的，该步骤可跳过。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=N2Q0ZmQ5NTI4MmQ5NTI4NmI3ODA5OTc1MTAzMDBjZWFfWDdCOHNFT2I2QUo2anN2ekY4SmpSZFduT2FqbzhUbWhfVG9rZW46SXFBTGI2Q0xCbzFTS254VGRUY2N1cjZPblZnXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/9a4796bb-0924-4f7d-9239-52586cda5d32)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NDU3N2MyY2E1ZjVmYjVmNGQ1YjdhODg1OTYwODcxOTJfRkE5QW9pemxYbk8wZ3doRjBzWklqWjBITk5FTUF3WjVfVG9rZW46UUNpcmJDdGd3b3NkYVZ4ZDV6b2NCVWNsblJtXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjA4MzQ0YzcyM2VlMzRiNmE4MDA2YWFlNjVjZTQwMTBfUnFPNFlsZkNWdHppaVg0bnFtT2NmaHJYdmxJM1QzaUtfVG9rZW46TGEyRmJVYldNb0R0aGV4TzVVeGNTQjhrbjJlXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/c394dab0-b1fa-48f3-a33d-165e8fe43d1e)
+
+
+![image](https://github.com/user-attachments/assets/3408a7be-6457-453b-a3e3-0ed1b69daa2b)
+
 
 如果你的代码存在 `GitHub` 上，你就需要把命名空间设置为`io.github.myusername`。这里的`myusername`是你的github地址，例如我的的是`https://github.com/``gwyg`所以我的命名空间是：`io.github.gwyg`
 
@@ -36,21 +42,27 @@ https://central.sonatype.com/
 
 我这里是创建了gitee仓库的一个命名空间
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmIzNDI2NjY2MjVjMzJmNmQ5YmUzOTk0MDFhYjNmOGFfb0ZyOHRFTFRoak5acXdvckJBY1BpeFJHZVRaM041UFBfVG9rZW46Q2hON2JMd2xsb0dXWmd4NFpRaGNqazNMbjN5XzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/5f602963-5c1a-494b-9acc-942eeeb0149d)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YjIwNzM0YTNlOGJiZTRlYmFiMmMxODk4YWNkYTk3NTRfRk03SzZwUkRqR3BmMkFxT1FuQTA2SmhBNEVObzNPYmJfVG9rZW46UVd0S2JaOVZLb2xGYUZ4SnptRGNBWWMzbkZkXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+
+![image](https://github.com/user-attachments/assets/888ce439-459a-4465-a335-c1f3ddfdbcd0)
+
 
 ### 创建push的账号和密码
 
 这一步抛弃了原来固定的username和password，选择了一个随机的username和password，这个username和password用来push你的jar包到中央仓库里面去，所以一定要保存好，以后都不会显示了，只有在创建成功的时候才会显示一次。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=N2E5NWNjNjRmMGFiYmViYTg3ZWFhNmU3NDM0ZTlhMGRfOE9NcGRoV0hsQXYzcE42RUlCR1NZYzJGYkZwUWY1Y1ZfVG9rZW46TVJGVWIxdGlJb0lRVUN4OEFUcWMxWHU4bkFnXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/1de0d57e-a55a-4e7c-be75-120d415b9bec)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OTY3YzU0OGE2MDg4OTAyNWJiOGQ2YTNiODI4MTdjNjZfeG12TnR3U3NXWjIxMGR3dllnMVk4QVlDbHduQWNpWjZfVG9rZW46SkF1a2J4RFVPb3d5V1R4bEZUdmNNZkJ2blBoXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjNhYjJkY2FlOGIyMDEyZTMyZWEyYTgxMTM0Yzk3MWJfcm9oVjhha29KdUhyYmJRUFJaclAza0RtMms2aVlKaWFfVG9rZW46R0JneWIxeEJDb1kyRVl4ZUhoa2NSc1Rmbm5oXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/c1cdf579-1b5d-4498-934c-85614b2e34bd)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YTE5MWY5YTU4ODQ3YzA1M2QyMGZmMzZlOTk4NGM0ZGVfRVM4am5LRWVDRGFlWGM4TUJBSGJoaDE2V1lqWlg3RFBfVG9rZW46RlN5c2JHaHc2b3p4T2x4MFNuSWNaaWNobk5ZXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+
+![image](https://github.com/user-attachments/assets/68dba56e-0f77-4dbe-bd9c-cee5325cc4c9)
+
+
+![image](https://github.com/user-attachments/assets/16d6f305-e8b9-48e1-8d36-14818aeec7dc)
+
 
 把他粘贴到maven的setting.xml 文件里面
 
@@ -64,7 +76,8 @@ https://central.sonatype.com/
 </server>
 ```
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MjY1ZGY0YTI1M2YwYjRhYzQxMzJhYzlkMGViNWExNzlfSUFWNXlDUVkyYTFkekN6UGQ3bkQwNUpHaHRTZ2lYNmJfVG9rZW46WGI0V2JmS3FWb0JLR054YlJDQmNkZ1BFbldmXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/b952abec-ac7d-4467-a195-958d4fa8a742)
+
 
 ## GPG准备
 
@@ -74,13 +87,15 @@ GPG 用于创建asc文件用于验证你的文件的正确性和安全性，我�
 
 https://gnupg.org/download/index.html
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2ZiNzU2NjQyODgzNjk2NTJhNzU0OTM0ZTExNTJkMjVfUWNEbEQ5R1AzMWNweFZ1a21EODdMbmxRY0c2bkdua2pfVG9rZW46RVFMd2JmSVRob0gwU0Z4ZlFSVWN6Vll2bmgzXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/4b27e57d-b1e3-478e-9ddf-67e3abfd687d)
+
 
 安装过程比较简单，这里就不单独截图来教学了，安装的时候可以把这些开发工具放在同一个地方，方便管理。
 
 ### 生成秘钥
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YWYwMzQ0YzJjZjM4NWM4NGVkNGUyN2E3NzEyZjZjMzhfNVB4VWVaNmlybWpHWVdoSWNubjZnVEJjUVdXemJiZ0xfVG9rZW46WGpsRWJVeHQzb1p2VEp4bDFSeGNwY2hmblBoXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/c369cf95-eecd-410e-a9ef-31ba2c23435a)
+
 
 安装好之后我有两个目录，进入 GnuPG\bin 这个目录下的cmd
 
@@ -90,13 +105,15 @@ https://gnupg.org/download/index.html
 
 然后在弹出的窗口设置一个密码，用来保护密钥对。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NmQ3ZTk4ZjQ5MjEzMjkzYjYzNmEzYzdjNTI4NmJjNWVfaW0xQU5Sa21BcmZkWW1IQWlHWE9DcWVTNVEyTmdQVXdfVG9rZW46QVpJMWJMQUFrb3B6b014UG5aWWNmZTl5bndoXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/f8520aa1-7f45-42a8-a9db-dab7ee2640eb)
+
 
 ### 发布秘钥
 
 上面 067FBBE0CB587465FD81AF9C580E420B49E48996 就是密钥id
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YmQ1NTA5NDEzMjlmZWQ2OGE1ZDlkNjI3NzI2YzZiMTlfMHBpbEFvQWlhZE9kNDY4dXhaVFUzd3gxZ0xtemRWQklfVG9rZW46SENSTmJxWGx6b1VpUVB4cDlEa2M3dXBtblhlXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/642d1835-da3a-4dbd-a46b-0383055bfbc5)
+
 
 ```Bash
 gpg --keyserver keyserver.ubuntu.com --send-keys 067FBBE0CB587465FD81AF9C580E420B49E48996
@@ -118,7 +135,8 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 出现下面内容则说明发布成功
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MzgwMDBkMzNjNmFkMWMxMWUwYzUzYjEyNzhiOGU0M2NfYkJtUDdKRndORzlXR0pFMlFMRXBMVmJXdzF3TkJVc0tfVG9rZW46UTY5MGIyaVZ6b3J5WWp4cEczMmN3MFJ6bmxjXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/be4268b4-dd4f-4bbf-a781-b32528e0f274)
+
 
 ## 发布jar包
 
@@ -281,11 +299,12 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 这个时候会让你输入你在开头设置的密码，输入成功开始打包上传。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmU2NzdiN2Q5Y2MwMmIwYTk0MjkxNTA2YjlkYjhiMDZfc0g4ZFhiT01VMk9QMmRJSTA3YXlTQWpYZzlOQk9QOVRfVG9rZW46QmFNdWJXRmEyb1hRU2J4dUxDdWM4WkF1bmVmXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/05282bef-aa6b-466f-bdaa-f63c8909668e)
+
 
 打包完成
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MjVmNTIyZGVkZjgxYjM1NDliZjQzMWQ5NmYxNTg1NTdfQlMzVEdKbmh5bDBZYjdaYURqYVc5VUlqeUQ1OThheFFfVG9rZW46U0tUdGJwZWd2b3pGdDV4UXFhY2NZWkZjbnNnXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/b3202ac5-c110-4543-bd36-a3dd5f2b2ed4)
 
 ### 发布jar包
 
@@ -295,9 +314,11 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 发布之后需要等待通过。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OTE4YzQ0ZDZhMmQxNjNiOTliY2I5NmI0ZWFjNTc1NThfU25KQk1qeDBCUTBYeENxRDJSd21sdmVYakhCQ2prRldfVG9rZW46UXRLcGIyYXR1bzRic0p4MVBSOGN5UDlQblFoXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/bee5bd42-ec8b-4bff-a27e-230e0a760866)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YjNhM2Y5NjdkMTAxNGE1NDUzM2JkOTA0NGYyMmNlZjFfMnNWbUNsbk9UTkNpb2ZrQTA5QVZUd2Rlb0JBTUREcVRfVG9rZW46Vk01aWJBd1Ywb2dLU0x4bnB0eWNIbGhIbldlXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+
+![image](https://github.com/user-attachments/assets/cf170cdf-2029-4fc7-8c67-979708f904b1)
+
 
 几分钟之后就能通过
 
@@ -305,7 +326,8 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 搜索到就是成功了
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWZjNTVhNDgwZTFiYWM2NDM1ODgzNGIyMjZiNDAzMjJfR3RJeXdXRERHZUFJczJGazhWdmh6aEZJTm1STkJCSFRfVG9rZW46VVZmYWJGdnJYb3c0YlR4Y2NoeWNsY1lZbkJmXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/3f261464-4220-4899-a6f8-454fa955e79e)
+
 
 ## 测试jar包
 
@@ -321,8 +343,9 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 067FBBE0CB587465FD81AF9C580E420
 
 导入我们上传的依赖
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NjNhMWY0YzVkNTU1MzQ3ODBjZGI1ZDdiY2ViYjU5NzFfRzVGN2I0SmRrdTlMY0RyZkhET0I0Vlo1RGFtTkFlU2tfVG9rZW46S2JCbWI0YUR4b25WUzR4TlYyWGNBcVVqbm5iXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/a9b8fb41-8074-4f5b-ab47-ba163369785e)
+
 
 成功运行，到此就是完整的上传流程了
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NjZjMzc3ZWFjNTQ5Yzk5ZjY2YTgxZDMwZjZkYjk4OTBfazg4ZU5BZWtBeG90SDRhSUsxa3pwbzVucUZ1dDFvbGdfVG9rZW46UkpMd2JqR1lTb0VEVnR4MEJyeWNyYUFwbktkXzE3MzMxNDc4Mjg6MTczMzE1MTQyOF9WNA)
+![image](https://github.com/user-attachments/assets/862f6945-ba36-4cac-b363-07fefca4754f)
